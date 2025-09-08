@@ -4,3 +4,7 @@ body {
  background-color:#0F172A ; 
  font-family: sans-serif;
 }
+
+.container {
+  @apply max-w-[1800px] mx-auto p-5;
+}

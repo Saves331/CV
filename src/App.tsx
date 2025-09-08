@@ -12,9 +12,10 @@ function App() {
         <NavBar />
 
 
-    <div className='snap-y snap-mandatory h-screen overflow-y-scroll'>
-      
-      <section className="h-screen snap-start">
+    <div className='snap-y snap-mandatory h-screen overflow-y-scroll  scroll-behavior:smooth;'>
+
+      <div className=''>
+        <section className="h-screen snap-start bg-[#12151a]">
           <Hero />
         </section>
 
@@ -23,10 +24,13 @@ function App() {
         </section>
 
 
-        <section className="h-screen snap-start">
+       {/*  <section className="h-screen snap-start">
           <Dummy />
         </section>
-
+ */}
+      </div>
+      
+      
         
         
 

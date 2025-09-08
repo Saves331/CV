@@ -24,10 +24,10 @@ function App() {
         </section>
 
 
-       {/*  <section className="h-screen snap-start">
+        <section className="h-screen snap-start">
           <Dummy />
         </section>
- */}
+
       </div>
       
       

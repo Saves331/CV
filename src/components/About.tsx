@@ -4,7 +4,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='h-screen pt-[10vh] text-center max-w-[1800px] mx-auto w-full'>
+    <div className='h-screen pt-[10vh] text-center max-w-[1800px] mx-auto w-full p-15'>
         <h1 className='text-6xl text-[#F1F5F9] font-bold py-10'>About Me</h1>
 
 

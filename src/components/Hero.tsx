@@ -1,4 +1,4 @@
-import React from 'react'
+
 import avatar from '../Img/avatar.png'
 
 function Hero() {

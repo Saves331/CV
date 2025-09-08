@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from './components/NavBar.tsx'
 import Hero from './components/Hero.tsx'
 import Dummy from './components/Dummy.tsx'
+import About from './components/About.tsx'
 function App() {
   
   return (
@@ -16,9 +17,21 @@ function App() {
       <section className="h-screen snap-start">
           <Hero />
         </section>
+
+        <section className='h-screen snap-start'>
+          <About></About>
+        </section>
+
+
         <section className="h-screen snap-start">
           <Dummy />
         </section>
+
+        
+        
+
+        
+
     </div>
     </div>
 

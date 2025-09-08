@@ -1,18 +1,27 @@
 import React from 'react'
 import avatar from '../Img/avatar.png'
+
 function Hero() {
+  const person = { name: "Martin", profession: "Developer", avatar: avatar }
 
-    const person = {name: "Martin", profession: "Developer", avatar: avatar}
   return (
-    <div className='w-400 h-200 m-auto flex justify-between items-center'>
-       <div className="text-8xl text-[#F1F5F9]">
-            <h1 className="">Hi! I am {person.name}.</h1>
-            <h1 className=""><span className='text-[#06B6D4]'>React</span> {person.profession}</h1>
-        </div>
+    <div className="snap-start h-screen flex justify-between items-center px-10 pt-[15vh] bg-[#12151a]">
+      {/* Left side: Text */}
+      <div className="text-4xl sm:text-6xl lg:text-[6rem] text-[#F1F5F9]">
+        <h1>Hi! I am {person.name}.</h1>
+        <h1>
+          <span className="text-[#06B6D4]">React</span> {person.profession}
+        </h1>
+      </div>
 
-        <div>
-            <img src={person.avatar} alt="avatar" className='h-100 w-100 rounded-full'/>
-        </div>
+      {/* Right side: Avatar */}
+      <div>
+        <img
+          src={person.avatar}
+          alt="avatar"
+          className="w-64 h-64 lg:w-[25rem] lg:h-[25rem] rounded-full object-cover"
+        />
+      </div>
     </div>
   )
 }

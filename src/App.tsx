@@ -4,6 +4,7 @@ import NavBar from './components/NavBar.tsx'
 import Hero from './components/Hero.tsx'
 import Dummy from './components/Dummy.tsx'
 import About from './components/About.tsx'
+import Footer from './components/Footer.tsx'
 function App() {
   
   return (
@@ -28,6 +29,15 @@ function App() {
           <Dummy />
         </section>
 
+        
+          <Footer>
+
+        </Footer>
+
+        
+
+        
+        
       </div>
       
       

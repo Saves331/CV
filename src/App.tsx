@@ -16,16 +16,16 @@ function App() {
     <div className='snap-y snap-mandatory h-screen overflow-y-scroll  scroll-behavior:smooth;'>
 
       <div className=''>
-        <section className="h-screen snap-start bg-[#12151a]">
+        <section className="h-screen snap-start bg-[#12151a]" id='hero-section'>
           <Hero />
         </section>
 
-        <section className='h-screen snap-start'>
+        <section className='h-screen snap-start' id="about-section">
           <About></About>
         </section>
 
 
-        <section className="h-screen snap-start">
+        <section className="h-screen snap-start" id='skills-section'>
           <Dummy />
         </section>
 

@@ -5,6 +5,10 @@ body {
  font-family: sans-serif;
 }
 
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
 .container {
   @apply max-w-[1800px] mx-auto p-5;
 }

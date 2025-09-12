@@ -10,7 +10,7 @@ function Hero() {
       <div className="flex text-4xl sm:text-6xl lg:text-[6rem] text-[#F1F5F9] w-1/2 flex-col text-center">
         <h1>Hi! I am {person.name}.</h1>
         <h1>
-          <span className="text-[#06B6D4]">React</span> {person.profession}
+          And this is my <span className="text-[#06B6D4]">CV</span>   
         </h1>
       </div>
 

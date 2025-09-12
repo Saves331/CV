@@ -5,6 +5,8 @@ import Hero from './components/Hero.tsx'
 import Dummy from './components/Dummy.tsx'
 import About from './components/About.tsx'
 import Footer from './components/Footer.tsx'
+import Projects from './components/Projects.tsx'
+import Contanct from './components/Contanct.tsx'
 function App() {
   
   return (
@@ -13,26 +15,41 @@ function App() {
         <NavBar />
 
 
-    <div className='snap-y snap-mandatory h-screen overflow-y-scroll  scroll-behavior:smooth;'>
+    <div className=' h-screen  scroll-behavior:smooth;'>
 
       <div className=''>
-        <section className="h-screen snap-start bg-[#12151a]" id='hero-section'>
+        <section className="h-screen bg-[#12151a]" id='hero-section'>
           <Hero />
         </section>
 
-        <section className='h-screen snap-start' id="about-section">
+        <section className='h-screen ' id="about-section">
           <About></About>
         </section>
 
 
-        <section className="h-screen snap-start" id='skills-section'>
+        <section className="h-screen" id='skills-section'>
           <Dummy />
         </section>
 
-        
-          <Footer>
 
-        </Footer>
+        <section className='h-screen' id='projects-section'>
+          <Projects></Projects>
+        </section>
+
+
+        <section className='h-100 bg-[#090a0b]' id='contact-section'>
+
+              <div className='h-4/5 p-10 font-bold'>
+                <Contanct></Contanct>      
+              </div>
+
+
+              <div className='h-1/5'>
+                <Footer></Footer>
+              </div>
+        </section>
+        
+          
 
         
 

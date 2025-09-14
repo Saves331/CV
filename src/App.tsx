@@ -27,7 +27,7 @@ function App() {
         </section>
 
 
-        <section className="h-screen" id='skills-section'>
+        <section className="h-screen bg-[#12151a]" id='skills-section'>
           <Dummy />
         </section>
 

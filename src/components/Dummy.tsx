@@ -1,12 +1,12 @@
 import Card from './Card'
 
 function Dummy() {
-
-    const boxes = [1,2,3]
+/* 
+    const boxes = [1,2,3] */
     const skills = "SKILLS"
 
   return (
-    <div className='h-[100vh] w-full bg-amber-600 snap-start pt-[10vh] flex justify-around items-center relative px-15'>
+    <div className='h-[100vh] w-full  snap-start pt-[10vh] flex justify-around items-center relative px-15'>
 
         
         <div className=' flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-8xl text-white  z-0 hidden sm:flex pt-[10vh]'>

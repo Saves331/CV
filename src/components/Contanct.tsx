@@ -17,16 +17,24 @@ function Contanct() {
     <div>
 
         
-       <h1 className='text-5xl text-white'>Contanct Me</h1> 
+       <h1 className='text-5xl text-white font-bold'>Contanct Me</h1> 
 
 
-       <div>
+       <div className='flex gap-4 flex-col mt-4'>
         {contacts.map((contact, index) => (
-            <li key={index}>
-                <FontAwesomeIcon icon={contact.icon} />
-                <h2>{contact.type}</h2>
+            <li key={index} className='text-white list-none flex gap-2'>
+                <div>
+                    <FontAwesomeIcon icon={contact.icon} />
+                </div>
+                 
+
+                <div className='flex flex-col font-semibold'>
+                   <h2>{contact.type}:</h2>
+                    <a href="#" className='underline'>{contact.value}</a>
+                </div>
                 
-                <a href="">{contact.value}</a>
+                
+              
                 
             </li>
         ))}

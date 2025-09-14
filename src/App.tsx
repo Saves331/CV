@@ -37,14 +37,14 @@ function App() {
         </section>
 
 
-        <section className='h-100 bg-[#090a0b]' id='contact-section'>
+        <section className='h-min-content ' id='contact-section'>
 
-              <div className='h-4/5 p-10 font-bold'>
+              <div className='h-4/5 p-10 bg-[#090a0b]'>
                 <Contanct></Contanct>      
               </div>
 
 
-              <div className='h-1/5'>
+              <div className='h-1/5 flex items-center bg-[#030202] p-5'>
                 <Footer></Footer>
               </div>
         </section>

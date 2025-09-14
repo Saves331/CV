@@ -1,4 +1,4 @@
-
+import Card from './Card'
 
 function Dummy() {
 
@@ -15,10 +15,17 @@ function Dummy() {
             ))}
         </div>
 
-        <div className="flex max-w-[1800px] w-full h-[60vh] gap-4">
+        {/* <div className="flex max-w-[1800px] w-full h-[60vh] gap-4">
           {boxes.map((box) => {
             return <div key={box} className="w-1/3 h-[100%] bg-fuchsia-700 border-2"></div>
           })}
+        </div> */}
+
+
+        <div className="flex max-w-[1800px] w-full h-[60vh] gap-4">
+        
+            <Card></Card>
+          
         </div>
 
 

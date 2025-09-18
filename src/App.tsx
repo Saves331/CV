@@ -11,28 +11,27 @@ function App() {
   
   return (
 
-    <div className='h-screen'>
+    <div className=''>
         <NavBar />
 
 
-    <div className=' h-screen  scroll-behavior:smooth;'>
-
-      <div className=''>
-        <section className="h-screen bg-[#12151a]" id='hero-section'>
+   
+      
+        <section className=" bg-[#12151a]" id='hero-section'>
           <Hero />
         </section>
 
-        <section className='h-screen ' id="about-section">
+        <section className=' ' id="about-section">
           <About></About>
         </section>
 
 
-        <section className="h-screen bg-[#12151a]" id='skills-section'>
+        <section className=" bg-[#12151a]" id='skills-section'>
           <Dummy />
         </section>
 
 
-        <section className='h-screen' id='projects-section'>
+        <section className='' id='projects-section'>
           <Projects></Projects>
         </section>
 
@@ -55,16 +54,9 @@ function App() {
 
         
         
-      </div>
-      
-      
-        
-        
-
-        
-
+     
     </div>
-    </div>
+
 
       
   )

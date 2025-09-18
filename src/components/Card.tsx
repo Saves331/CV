@@ -22,26 +22,41 @@ function Card() {
     ]
 
   return (
-    <div className='flex gap-5'>
-        {techStack.map((tech, index) => (
-            <div key={index} className="w-1/3 h-[100%] bg-[#1a1e24] border-2 border-[#2a2f36] shadow-[0_0_20px_rgba(59,130,246,0.15)]">
-                <div className='flex flex-col items-center p-5 gap-3 text-center h-full'>
+   <div className="flex justify-center">
+  <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 justify-items-center items-start mx-auto max-w-[1800px] w-full">
+    {techStack.map((tech, index) => (
+      <div
+        key={index}
+        className={`
+          h-full bg-[#1a1e24] border-2 border-[#2a2f36] max-w-[550px] shadow-[0_0_20px_rgba(59,130,246,0.15)]
+          ${index === 2 ? "lg:col-span-2 lg:justify-self-center xl:col-span-1" : ""}
+        `}
+      >
+        <div className="flex flex-col items-center p-5 gap-3 text-center h-full">
+          <div className="p-5 h-2/5 flex items-center">
+            <img src={tech.logo} alt={tech.logo} className="max-h-60 max-w-70" />
+          </div>
 
-                    <div className='p-5'>
-                        <img src={tech.logo} alt={tech.logo} className='h-60'/>
-                    </div>
-                    
+          <div className="h-2/5">
+            <h1 className="text-5xl font-bold text-[#e5e7eb]">{tech.name}</h1>
+            <h3 className="text-[#9ca3af] font-semibold mt-5 whitespace-pre-line text-2xl 2xl:text-3xl">
+              {tech.description}
+            </h3>
+          </div>
 
-                    <h1 className='text-5xl font-bold text-[#e5e7eb]'>{tech.name}</h1>
+          <h2
+            className={`mt-auto text-4xl ${
+              tech.skillLevel === 2 ? "text-orange-400" : ""
+            } ${tech.skillLevel === 3 ? "text-yellow-400" : ""}`}
+          >
+            Skill level: {tech.skillLevel}/5
+          </h2>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
 
-                    <h3 className='text-[#9ca3af] font-semibold text-3xl mt-5 whitespace-pre-line'>{tech.description}</h3>
-
-                    <h2 className={`mt-auto text-4xl ${tech.skillLevel === 2 ? "text-orange-400" : " "}
-                                                     ${tech.skillLevel === 3 ? "text-yellow-400" : " "}`}>Skill level: {tech.skillLevel}/5</h2>
-                </div>
-            </div>
-        ))}
-    </div>
   )
 }
 

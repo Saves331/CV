@@ -22,7 +22,7 @@ function Dummy() {
         </div> */}
 
 
-        <div className="flex max-w-[1800px] w-full h-[60vh] gap-4">
+        <div className=" max-w-[1800px] w-full h-[60vh] gap-4">
         
             <Card></Card>
           

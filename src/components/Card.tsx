@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactImg from '../Img/React.png'
 import TailwindImg from '../Img/Tailwind.png'
 import HTMLCSSImg from '../Img/HTMLCSS.png'

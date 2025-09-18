@@ -6,23 +6,18 @@ function Dummy() {
     const skills = "SKILLS"
 
   return (
-    <div className='h-[100vh] w-full  snap-start pt-[10vh] flex justify-around items-center relative px-15'>
+    <div className='w-full py-[10vh] flex justify-around items-center px-15 relative'>
 
         
-        <div className=' flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-8xl text-white  z-0 hidden sm:flex pt-[10vh]'>
+        <div className='flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-8xl text-white  z-0 hidden sm:flex'>
             {skills.split("").map((char, index) => (
               <span key={index}>{char}</span>
             ))}
         </div>
 
-        {/* <div className="flex max-w-[1800px] w-full h-[60vh] gap-4">
-          {boxes.map((box) => {
-            return <div key={box} className="w-1/3 h-[100%] bg-fuchsia-700 border-2"></div>
-          })}
-        </div> */}
+      
 
-
-        <div className=" max-w-[1800px] w-full h-[60vh] gap-4">
+        <div className=" max-w-[1800px] w-full gap-4">
         
             <Card></Card>
           

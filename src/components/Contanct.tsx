@@ -6,7 +6,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function Contanct() {
 
-    const contacts = [{type: "Telephone", value: "+123456789", icon: faPhone},
+    const contacts = [{type: "Telephone", value: "+421944349390", icon: faPhone},
                       {type: "Email", value: "martin.example@gmail.com", icon: faEnvelope},
                       {type: "GitHub", value: "GitHub", icon: faGithub},
                       {type: "LinkedIn", value: "LinkedIn", icon: faLinkedin}
@@ -30,7 +30,7 @@ function Contanct() {
 
                 <div className='flex flex-col font-semibold'>
                    <h2>{contact.type}:</h2>
-                    <a href="#" className='underline'>{contact.value}</a>
+                    <a href="" className='underline'>{contact.value}</a>
                 </div>
                 
                 

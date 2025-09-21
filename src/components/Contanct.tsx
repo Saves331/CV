@@ -7,8 +7,8 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 function Contanct() {
 
     const contacts = [{type: "Telephone", value: "+421944349390", icon: faPhone},
-                      {type: "Email", value: "martin.example@gmail.com", icon: faEnvelope},
-                      {type: "GitHub", value: "GitHub", icon: faGithub},
+                      {type: "Email", value: "martin.l74123@gmail.com", icon: faEnvelope},
+                      {type: "GitHub", value: "https://github.com/Saves331", icon: faGithub},
                       {type: "LinkedIn", value: "LinkedIn", icon: faLinkedin}
     ]
 
@@ -21,8 +21,20 @@ function Contanct() {
 
 
        <div className='flex gap-4 flex-col mt-4'>
-        {contacts.map((contact, index) => (
-            <li key={index} className='text-white list-none flex gap-2'>
+        {contacts.map((contact, index) => {
+
+            let href = contact.value;
+
+            if(contact.type === "Email") {
+                href = `mailto:${contact.value}`;
+            }
+
+            if(contact.type === "Telephone") {
+                href = `tel:${contact.value}`;
+            }
+
+            return (
+              <li key={index} className='text-white list-none flex gap-2'>
                 <div>
                     <FontAwesomeIcon icon={contact.icon} />
                 </div>
@@ -30,14 +42,12 @@ function Contanct() {
 
                 <div className='flex flex-col font-semibold'>
                    <h2>{contact.type}:</h2>
-                    <a href="" className='underline'>{contact.value}</a>
+                    <a href={href} target='blank_' className='underline'>{contact.value}</a>
                 </div>
-                
-                
-              
-                
             </li>
-        ))}
+            )
+            
+      })}
        </div>
     </div>
   )

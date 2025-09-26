@@ -26,7 +26,7 @@ function Card() {
     {techStack.map((tech, index) => (
       <div
         key={index}
-        className={`
+        className={` min-w-[364px]
           h-full bg-[#1a1e24] border-2 border-[#2a2f36] max-w-[550px] shadow-[0_0_20px_rgba(59,130,246,0.15)]
           ${index === 2 ? "lg:col-span-2 lg:justify-self-center xl:col-span-1" : ""}
         `}

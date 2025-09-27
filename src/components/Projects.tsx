@@ -7,7 +7,7 @@ function Projects() {
 
   return (
 
-    <div className='h-screen py-[10vh] w-full px-20 relative z-0 flex items-center justify-center sm:pt-[20vh] pb-[10vh]'>
+    <div className=' py-[10vh] w-full px-20 relative z-0 flex items-center justify-center sm:pt-[20vh] pb-[10vh]'>
 
 
         <div className=' flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-8xl text-white pt-[10vh] z-0 hidden md:flex'>
@@ -22,15 +22,15 @@ function Projects() {
         <h1 className='text-6xl text-[#F1F5F9] font-bold py-10 md:hidden'>Projects</h1>
 
 
-              <div className='flex gap-4 h-[65vh]'>
-                      <div className='flex flex-col w-1/2 gap-4'>
+              <div className='flex gap-4 flex-col items-center xl:flex-row'>
+                      <div className='flex w-full xl:w-1/2 gap-4 h-[65vh]'>
                         <div className='bg-amber-400 border-4 h-full w-full'></div>
                       
                       </div>
 
 
 
-                      <div className='w-1/2'>
+                      <div className='w-full xl:w-1/2 h-[65vh]'>
                         <div className='bg-amber-600 border-4 h-full w-full'></div>
 
                         </div>

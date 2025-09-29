@@ -23,16 +23,27 @@ function Projects() {
 
 
               <div className='flex gap-4 flex-col items-center xl:flex-row'>
-                      <div className='flex w-full xl:w-1/2 gap-4 h-[65vh] min-w-[364px]'>
-                        <div className='bg-amber-400 border-4 h-full w-full bg-cover bg-center'
+
+                <a href="https://cicman-clicker.netlify.app/" target='_blank' className='flex w-full xl:w-1/2 gap-4 h-[75vh] min-w-[364px] bg-black'>
+                                     
+                      
+                        <div className=' border-4 h-full w-full bg-cover bg-center flex justify-center items-center'
                              style={{ backgroundImage: `url(${CicmanClicker})` }}>
-                                                  </div>
+
+                              <h1 className='text-4xl font-bold text-white'>
+                                Cicman-Clicker
+                              </h1>
+                        </div>
                         
-                      </div>
+                    
+                        
+                      
+
+                </a>
+   
 
 
-
-                      <div className='w-full xl:w-1/2 h-[65vh]'>
+                      <div className='w-full xl:w-1/2 h-[75vh] min-w-[364px]'>
                         <div className='bg-amber-600 border-4 h-full w-full'></div>
 
                         </div>

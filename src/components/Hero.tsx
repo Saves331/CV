@@ -5,7 +5,7 @@ function Hero() {
   const person = { name: "Martin", profession: "Developer", avatar: avatar }
 
   return (
-    <div className="snap-start h-screen flex flex-col-reverse min-[875px]:flex-row min-[875px]:justify-between justify-center gap-5 items-center px-10 pt-[10vh] container">
+    <div className="snap-start h-screen flex flex-col-reverse min-[875px]:flex-row min-[875px]:justify-between justify-center gap-15 items-center px-10 pt-[10vh] container">
       {/* Left side: Text */}
       <div className="flex text-6xl lg:text-[6rem] text-[#F1F5F9] min-[875px]:w-2/3 flex-col text-center">
         <h1>Hi! I am {person.name}.</h1>

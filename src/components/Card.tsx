@@ -32,8 +32,8 @@ function Card() {
         `}
       >
         <div className="flex flex-col items-center p-5 gap-3 text-center h-full">
-          <div className="p-5 h-2/5 flex items-center">
-            <img src={tech.logo} alt={tech.logo} className="max-h-60 max-w-70" />
+          <div className="p-5 h-2/5 flex items-center ">
+            <img src={tech.logo} alt={tech.logo} className="max-h-60 max-w-70 p-5" />
           </div>
 
           <div className="h-2/5">

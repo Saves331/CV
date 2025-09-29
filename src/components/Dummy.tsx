@@ -9,7 +9,7 @@ function Dummy() {
     <div className='w-full py-[10vh] flex justify-around items-center px-20 relative'>
 
         
-        <div className='flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-8xl text-white  z-0 hidden md:flex'>
+        <div className='flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-7xl text-white  z-0 hidden md:flex'>
             {skills.split("").map((char, index) => (
               <span key={index}>{char}</span>
             ))}

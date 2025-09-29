@@ -10,7 +10,7 @@ function About() {
   return (
     <div className='h-screen py-[10vh] w-full px-20 relative z-0 flex items-center justify-center sm:pt-[20vh] pb-[10vh]'>
 
-        <div className=' flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-8xl text-white pt-[10vh]  z-0 hidden md:flex'>
+        <div className=' flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-7xl text-white pt-[10vh]  z-0 hidden md:flex'>
 
      
           {about.split("").map((char, index) => (
@@ -28,7 +28,7 @@ function About() {
         <h1 className='text-6xl text-[#F1F5F9] font-bold py-10 md:hidden'>About Me</h1>
 
 
-              <div className='flex gap-4 h-[65vh]'>
+              <div className='flex gap-4 h-[75vh]'>
                       <div className='flex flex-col w-1/2 gap-4'>
                         <div className='bg-amber-400 border-4 h-1/2 w-full'></div>
                         <div className='bg-amber-400 border-4 h-1/2 w-full'></div>

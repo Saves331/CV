@@ -22,7 +22,7 @@ function Card() {
 
   return (
    <div className="flex justify-center">
-  <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 justify-items-center items-start mx-auto max-w-[1800px] w-full">
+  <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 justify-items-center items-start mx-auto max-w-[1800px] w-full ]">
     {techStack.map((tech, index) => (
       <div
         key={index}

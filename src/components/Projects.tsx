@@ -7,10 +7,10 @@ function Projects() {
 
   return (
 
-    <div className=' py-[10vh] w-full px-20 relative z-0 flex items-center justify-center sm:pt-[20vh] pb-[10vh]'>
+    <div className='w-full px-20 relative z-0 flex items-center justify-center py-40'>
 
 
-        <div className=' flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-8xl text-white pt-[10vh] z-0 hidden md:flex'>
+        <div className=' flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-7xl text-white z-0 hidden md:flex'>
             {projects.split("").map((char, index) => (
                  <span key={index}>{char}</span>
             ))}
@@ -23,14 +23,14 @@ function Projects() {
 
 
               <div className='flex gap-4 flex-col items-center xl:flex-row'>
-                      <div className='flex w-full xl:w-1/2 gap-4 h-[65vh]'>
+                      <div className='flex w-full xl:w-1/2 gap-4 h-[75vh]'>
                         <div className='bg-amber-400 border-4 h-full w-full'></div>
                       
                       </div>
 
 
 
-                      <div className='w-full xl:w-1/2 h-[65vh]'>
+                      <div className='w-full xl:w-1/2 h-[75vh]'>
                         <div className='bg-amber-600 border-4 h-full w-full'></div>
 
                         </div>

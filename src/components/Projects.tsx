@@ -24,28 +24,42 @@ function Projects() {
 
               <div className='flex gap-4 flex-col items-center xl:flex-row'>
 
-                <a href="https://cicman-clicker.netlify.app/" target='_blank' className='flex w-full xl:w-1/2 gap-4 h-[75vh] min-w-[364px] bg-black'>
+                <a href="https://cicman-clicker.netlify.app/" target='_blank' className='flex w-full xl:w-1/2 gap-4 h-[75vh] min-w-[364px] bg-black relative text-white border-4'>
                                      
-                      
-                        <div className=' border-4 h-full w-full bg-cover bg-center flex justify-center items-center'
-                             style={{ backgroundImage: `url(${CicmanClicker})` }}>
+                                     <img src={CicmanClicker} alt="CicmanClicker" className='absolute inset-0 w-full h-full object-cover'/>
 
-                              <h1 className='text-4xl font-bold text-white'>
+                                     <div className="absolute inset-0 bg-black/50"></div>
+                      
+                        <div className='relative flex justify-center items-center w-full h-full'>
+                             
+
+                              <h1 className='text-4xl font-bold lg:text-6xl'>
                                 Cicman-Clicker
                               </h1>
                         </div>
-                        
-                    
-                        
-                      
-
                 </a>
    
 
 
                       <div className='w-full xl:w-1/2 h-[75vh] min-w-[364px]'>
-                        <div className='bg-amber-600 border-4 h-full w-full'></div>
+                        <div className='bg-gray-800 border-4 border-white h-full w-full flex justify-center items-center flex-col cursor-not-allowed'>
 
+                            <h1 className='text-4xl font-bold lg:text-5xl text-white p-10'>
+                              Expense Tracker
+                            </h1>
+
+                            <h2 className='text-3xl font-semibold lg:text-4xl text-amber-300 p-10 pt-0'>
+                              Soon
+                            </h2>
+
+                            <h2 className='text-3xl font-semibold lg:text-4xl text-gray-500 p-10 pt-0'>
+                              15th of October
+                            </h2>
+
+
+                        </div>
+
+                            
                         </div>
                       </div>
       

@@ -21,7 +21,7 @@ function App() {
           <Hero />
         </section>
 
-        <section className=' ' id="about-section">
+        <section className='h-min-content z-[-1]' id="about-section">
           <About></About>
         </section>
 

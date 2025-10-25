@@ -25,7 +25,7 @@ function About() {
   return (
     <section className="w-full py-[10vh] px-10 md:px-20 relative  z-[-1]">
       {/* Vertical ABOUT text */}
-      <div className="flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-7xl text-white z-0 hidden md:flex">
+      <div className="flex-col items-center absolute left-0 top-1/2 -translate-y-1/2 text-7xl text-white z-0 hidden md:flex ]">
         {about.split("").map((char, index) => (
           <span key={index}>{char}</span>
         ))}
@@ -49,7 +49,7 @@ function About() {
                 <h1 className="text-4xl lg:text-5xl font-bold text-[#fbbf24]">
                   {card.title}
                 </h1>
-                <h3 className="text-[#e5e7eb] font-medium mt-4 whitespace-pre-line text-xl lg:text-2xl 2xl:text-3xl leading-relaxed">
+                <h3 className="text-[#e5e7eb] font-medium mt-4 whitespace-pre-line text-xl lg:text-xl 2xl:text-2xl leading-relaxed">
                   {card.description}
                 </h3>
                 <h2 className="mt-auto text-2xl lg:text-3xl text-amber-400 font-semibold">

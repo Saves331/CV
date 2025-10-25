@@ -40,27 +40,26 @@ function Projects() {
                 </a>
    
 
-
+                
                       <div className='w-full xl:w-1/2 h-[75vh] min-w-[364px]'>
-                        <div className='bg-gray-800 border-4 border-white h-full w-full flex justify-center items-center flex-col cursor-not-allowed'>
+                        <a href="https://expensetrackrr-app.netlify.app/" target='_blank' className='bg-gray-800 border-4 border-white h-full w-full flex justify-center items-center flex-col cursor-pointer'>
+
+                          
 
                             <h1 className='text-4xl font-bold lg:text-5xl text-white p-10'>
                               Expense Tracker
                             </h1>
 
-                            <h2 className='text-3xl font-semibold lg:text-4xl text-amber-300 p-10 pt-0'>
-                              Soon
-                            </h2>
 
-                            <h2 className='text-3xl font-semibold lg:text-4xl text-gray-500 p-10 pt-0'>
-                              15th of October
-                            </h2>
-
-
-                        </div>
-
+                       </a>
                             
                         </div>
+                 
+                      
+                        
+                
+                        
+                             
                       </div>
       
         </div>

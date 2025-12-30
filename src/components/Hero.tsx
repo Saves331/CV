@@ -1,5 +1,5 @@
 
-import avatar from '../Img/avatar.png'
+import avatar from '../Img/PFP-cv.jpg'
 
 function Hero() {
   const person = { name: "Martin", profession: "Developer", avatar: avatar }

@@ -9,7 +9,7 @@ function Contanct() {
     const contacts = [{type: "Telephone", value: "+421944349390", icon: faPhone},
                       {type: "Email", value: "martin.l74123@gmail.com", icon: faEnvelope},
                       {type: "GitHub", value: "https://github.com/Saves331", icon: faGithub},
-                      {type: "LinkedIn", value: "LinkedIn", icon: faLinkedin}
+                      {type: "LinkedIn", value: "https://www.linkedin.com/in/martin-luteran%C4%8D%C3%ADk-604774326/", icon: faLinkedin}
     ]
 
 
